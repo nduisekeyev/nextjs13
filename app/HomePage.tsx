@@ -5,10 +5,13 @@
 // in the `pages` directory.
 export default function HomePage({ recentPosts }: any) {
   return (
-    <ul>
-      {recentPosts.map((post: any) => (
-        <li key={post.id}>{post.title}</li>
-      ))}
-    </ul>
+    <>
+      <h1>Hello, Next.js 13 - Home page</h1>
+      <ul>
+        {recentPosts.map((post: any) => (
+          <li key={post.id}>{post.title}</li>
+        ))}
+      </ul>
+    </>
   );
 }

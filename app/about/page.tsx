@@ -1,7 +1,7 @@
 export default function AboutPage() {
   return (
     <>
-      <h1>Hello Next.js, its About Server component</h1>
+      <h1>Hello, Next.js 13 - Dashboard its a About component</h1>
     </>
   );
 }
