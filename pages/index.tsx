@@ -21,15 +21,15 @@ export default function Home() {
       <main>
         <header className={styles.header}>
           <ul>
-            <li>
-              <h1>Next JS 13 with Turbopack</h1>
-            </li>
             <li onClick={() => handleClick("dashboards")}>Dashboards</li>
-            <li onClick={() => handleClick("about")}>About</li>
-            <li onClick={() => handleClick("categories")}>Categories</li>
+            <li onClick={() => handleClick("abouts")}>Abouts</li>
+            <li onClick={() => handleClick("categoriess")}>Categoriess</li>
           </ul>
         </header>
         <section>
+          <div>
+            <h1>Next JS 13 with Turbopack</h1>
+          </div>
           <div className={styles.section}>
             <div>
               <div>
