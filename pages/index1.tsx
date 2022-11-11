@@ -24,7 +24,7 @@ export default function Home() {
             <li>
               <h1>Next JS 13 with Turbopack</h1>
             </li>
-            <li onClick={() => handleClick("dashboard")}>Dashboard</li>
+            <li onClick={() => handleClick("dashboards")}>Dashboards</li>
             <li onClick={() => handleClick("about")}>About</li>
             <li onClick={() => handleClick("categories")}>Categories</li>
           </ul>

@@ -18,7 +18,8 @@
   justify-content: center;
 }
 
-.header ul > li {
+.header ul > li,
+.header ul > a {
   list-style: none;
   padding: 0 20px;
 }
